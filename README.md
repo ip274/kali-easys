@@ -49,7 +49,11 @@ sudo apt-get upgrade -y
 
 
 :معلومات حول النسخة
+
 :الاسم
+
 kali-easys
+
 :النسخة
+
 1.0
