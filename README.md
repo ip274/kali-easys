@@ -42,7 +42,7 @@ sudo apt-get update
 
 الخيار الثالث سيقوم بعمل امر
 
-sudo apt-get upgrade -y
+sudo apt -y full-upgrade
 
 -----
 :الخيار الرابع
