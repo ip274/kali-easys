@@ -48,8 +48,7 @@ sudo apt-get upgrade -y
 هذا الخيار سيقوم بإظهار اصدار كالي لينكس
 
 
-:معلومات حول النسخة
-
+# About this version
 :الاسم
 
 kali-easys
