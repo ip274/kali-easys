@@ -24,12 +24,14 @@ sudo python3 kali_easys.py
 :الخيار الثاني
 
 هذا الخيار سيقوم بعمل 
+
 sudo apt-get update
 
 -----
 :الخيار الثالث
 
 الخيار الثالث سيقوم بعمل امر
+
 sudo apt-get upgrade -y
 
 -----
