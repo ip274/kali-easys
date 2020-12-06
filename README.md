@@ -47,6 +47,7 @@ sudo apt-get upgrade -y
 
 هذا الخيار سيقوم بإظهار اصدار كالي لينكس
 
+-----
 
 
 # About this version
