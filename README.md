@@ -15,10 +15,11 @@
 
 git clone https://github.com/ip274/kali-easys.git
 
-cd kali-easys 
 
 
 # how to run kali easys
+
+cd kali-easys 
 
 sudo python3 kali_easys.py
 
