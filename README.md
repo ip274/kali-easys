@@ -13,15 +13,15 @@
 
 # how to install kali easys
 
-git clone https://github.com/ip274/kali-easys.git
+> git clone https://github.com/ip274/kali-easys.git
 
 
 
 # how to run kali easys
 
-cd kali-easys 
+> cd kali-easys 
 
-sudo python3 kali_easys.py
+> sudo python3 kali_easys.py
 
 # use kali easys
 اول ما بتشغل الاداة بتظهر لك 6 خيارات والان سنشرح جميع الخيارات لك بشكل مختصر
