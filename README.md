@@ -64,10 +64,10 @@ sudo apt -y full-upgrade
 
 
 # About this version
-:الاسم
+name: kali easys
 
-kali-easys
+version: 3.0
 
-:النسخة
 
-3.0
+The Developer twitter account:
+[@ip_274](https://twitter.com/ip_274)
