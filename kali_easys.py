@@ -144,15 +144,7 @@ def update_to_kali_linux_2020_4():
 
     print(GR)
     #make kali linux ready for upgrade
-    os.system("sudo apt-get update --fix-missing")
-
-    os.system("echo ''deb http://http.kali.org/kali kali-rolling main non-free contrib'' | sudo tee /etc/apt/sources.list")
-    os.system("echo ''deb http://http.kali.org/kali kali-last-snapshot main non-free contrib'' | sudo tee /etc/apt/sources.list")
-    os.system("echo ''deb http://http.kali.org/kali kali-experimental main non-free contrib'' | sudo tee -a /etc/apt/sources.list")
-    os.system("echo ''deb-src http://http.kali.org/kali kali-rolling main non-free contrib'' | sudo tee -a /etc/apt/sources.list")
-    
-    os.system("sudo apt-get update")
-    os.system("sudo apt -y full-upgrade")
+    all()
 
     #for 2020.4
     os.system("echo ''deb http://http.kali.org/kali kali-rolling main non-free contrib'' | sudo tee /etc/apt/sources.list")
