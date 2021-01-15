@@ -130,10 +130,12 @@ def all():
     print(GR)
     os.system("sudo apt -y full-upgrade")
 
-    print("\n")
-    print(G+"Done,Enjoy")
+
 
 def update_to_kali_linux_2020_4():
+    #make kali linux ready for upgrade
+    all() 
+    
     logo()
 
 
@@ -143,8 +145,7 @@ def update_to_kali_linux_2020_4():
     print("\n") 
 
     print(GR)
-    #make kali linux ready for upgrade
-    all()
+    
 
     #for 2020.4
     os.system("echo ''deb http://http.kali.org/kali kali-rolling main non-free contrib'' | sudo tee /etc/apt/sources.list")
@@ -185,6 +186,8 @@ elif  what_you_wnat == "03" or what_you_wnat == "3":
 elif  what_you_wnat == "04" or what_you_wnat == "4":
     print("\n")
     all()
+    print("\n")
+    print(G+"Done,Enjoy")
 elif  what_you_wnat == "05" or what_you_wnat == "5":
     print("\n")
     update_to_kali_linux_2020_4()
